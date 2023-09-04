@@ -1,0 +1,40 @@
+.page__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  text-align: center;
+}
+
+.page__item {
+  width: 230px;
+
+  padding: 12px;
+  margin: 7px;
+  border: 1px solid var(--main-white);
+  border-radius: 8px;
+}
+
+.page__item:hover {
+  border-color: var(--accent-grey);
+}
+
+.text {
+  font-size: 20px;
+}
+
+.page__button {
+  background-color: var(--main-black);
+  color: var(--main-white);
+  border: 1px solid var(--main-white);
+
+  padding: 14px;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.page__button:hover {
+  color: var(--main-gold);
+  border-color: var(--main-gold);
+}

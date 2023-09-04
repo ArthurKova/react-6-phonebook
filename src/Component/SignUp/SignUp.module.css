@@ -1,0 +1,65 @@
+.signup__form {
+  padding: 20px 200xp 200px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+}
+
+.signup__label {
+  font-size: 30px;
+}
+
+.signup__input {
+  width: 300px;
+  height: 30px;
+
+  margin-bottom: 30px;
+  margin-left: 48px;
+
+  font-size: 20px;
+}
+
+.signup__email {
+  composes: signup__input;
+  margin-left: 58px;
+}
+
+.signup__password {
+  composes: signup__input;
+  margin-left: 10px;
+}
+
+.signup__btn {
+  padding: 16px 30px 16px 30px;
+
+  font-size: 24px;
+
+  background-color: var(--main-black);
+  color: var(--main-white);
+
+  border: 1px solid var(--main-white);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signup__btn:hover {
+  color: var(--main-gold);
+  border-color: var(--main-gold);
+}
+
+.namemsg {
+  position: absolute;
+  bottom: 10px;
+  left: 140px;
+}
+
+.phonemsg {
+  position: absolute;
+  bottom: 10px;
+  left: 140px;
+}
